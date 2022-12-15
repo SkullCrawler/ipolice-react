@@ -61,9 +61,9 @@ function RadialBar() {
               show: false,
               label: "Today",
               color: "#373d3f",
-              formatter: function (w: { globals: { seriesTotals: any[]; series: string | any[]; }; }) {
+              formatter: function (w) {
                 return (
-                  w.globals.seriesTotals.reduce((a: any, b: any) => {
+                  w.globals.seriesTotals.reduce((a, b) => {
                     return a + b;
                   }, 0) /
                     w.globals.series.length +
@@ -129,9 +129,9 @@ function RadialBar() {
               show: true,
               label: "Today",
               color: "#373d3f",
-              formatter: function (w: { globals: { seriesTotals: any[]; series: string | any[]; }; }) {
+              formatter: function (w) {
                 return (
-                  w.globals.seriesTotals.reduce((a: any, b: any) => {
+                  w.globals.seriesTotals.reduce((a, b) => {
                     return a + b;
                   }, 0) /
                     w.globals.series.length +
