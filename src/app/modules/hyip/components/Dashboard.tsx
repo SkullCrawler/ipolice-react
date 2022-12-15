@@ -83,7 +83,7 @@ export function Dashboard() {
                     <div className="col-xl-3 " style={{ height: 450 }}>
                         {/* begin::Charts Widget 5 */}
                         <StatisticsWidget6
-                            className='card-xl-stretch mb-xl-8'
+                            className='card-xl-stretch mb-xl-4'
                             color='success'
                             title='In Last 10 Days'
                             description='Deposits'
@@ -91,7 +91,7 @@ export function Dashboard() {
                             amount='$48,325'
                         />
                         <StatisticsWidget6
-                            className='card-xl-stretch mb-xl-8'
+                            className='card-xl-stretch mt-1 mb-0'
                             color='warning'
                             title='In Last 10 Days'
                             description='Paid Out'

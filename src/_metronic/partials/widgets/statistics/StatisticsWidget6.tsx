@@ -12,7 +12,7 @@ type Props = {
 
 const StatisticsWidget6: React.FC<Props> = ({className, color, title, description, progress, amount}) => {
   return (
-    <div className={`card bg-light-${color} ${className}`}>
+    <div className={`card bg-light-${color} ${className}`} style={{ height: 218}}>
       {/* begin::Body */}
       <div className='card-body my-3'>
         <a href='#' className={`card-title fw-bold text-${color} fs-5 mb-3 d-block`}>

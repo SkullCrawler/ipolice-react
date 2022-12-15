@@ -47,8 +47,6 @@ const chartOptions = {
   const StackedColChart = () => {
     return (
         <Chart
-            options={chartOptions.options}
-            series={chartOptions.series}
             type="line"
             height="100%"
             className="card fullHeight"
