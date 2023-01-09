@@ -1,8 +1,8 @@
 import React from 'react'
 import {RightToolbar} from '../../../../_metronic/partials/layout/RightToolbar'
 import { AdWidget1, StatisticsWidget6 } from '../../../../_metronic/partials/widgets'
-import { ApexWidget1 } from '../../../../_metronic/partials/widgets/apex/ApexWidget1'
-import { ApexWidget2 } from '../../../../_metronic/partials/widgets/apex/ApexWidget2'
+// import { ApexWidget1 } from '../../../../_metronic/partials/widgets/apex/ApexWidget1'
+// import { ApexWidget2 } from '../../../../_metronic/partials/widgets/apex/ApexWidget2'
 import { ListsWidget10 } from '../../../../_metronic/partials/widgets/lists/ListsWidget10'
 import { StatisticsWidget7 } from '../../../../_metronic/partials/widgets/statistics/StatisticsWidget7'
 
@@ -65,19 +65,19 @@ export function Dashboard() {
                 <div className="row g-5 g-xl-8">
                     <div className="col-xl-3">
                         {/* begin::Apex Widget 1 */}
-                        <ApexWidget1 
+                        {/* <ApexWidget1 
                             title='Search for the best RCB Offers'
                             description='RCB - Referral Commission Back'
-                        />
+                        /> */}
                         {/* end::Apex Widget 1 */}
                     </div>
                     <div className="col-xl-6">
                         {/* begin::Charts Widget 5 */}
-                        <ApexWidget2
+                        {/* <ApexWidget2
                             title='Industry Dynamics'
                             description='The graph shows the number of new and scam
                             projects by day over the last 10 days'
-                        />
+                        /> */}
                         {/* end::Charts Widget 5 */}
                     </div>
                     <div className="col-xl-3 " style={{ height: 450 }}>
@@ -302,6 +302,11 @@ export function Dashboard() {
                             {/* end::List Widget 10 */}
                         </div>
                     </div>
+                </div>
+                <div className="col-xl-9 mb-xl-10">
+                    {/* begin::Mixed Widget 16 */}
+                    
+                    {/* end::Mixed Widget 16 */}
                 </div>
             </div>
         </div>
