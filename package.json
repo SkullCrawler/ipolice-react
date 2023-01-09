@@ -92,6 +92,7 @@
     ]
   },
   "eslintIgnore": [
-    "dist/*"
+    "dist/*",
+    "eslint-disable-next-line"
   ]
 }

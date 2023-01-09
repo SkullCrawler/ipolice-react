@@ -4,9 +4,9 @@ import {FC} from 'react'
 import {Link} from 'react-router-dom'
 import clsx from 'clsx'
 import {useLayout} from '../../core'
-import {KTSVG, toAbsoluteUrl} from '../../../helpers'
+// import {KTSVG, toAbsoluteUrl} from '../../../helpers'
 import {AsideMenu} from './AsideMenu'
-import {Dropdown2} from '../../../partials'
+// import {Dropdown2} from '../../../partials'
 
 const AsideDefault: FC = () => {
   const {classes} = useLayout()
