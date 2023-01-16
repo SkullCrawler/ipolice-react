@@ -30,7 +30,7 @@
 
 		// Aside default enabled, aside fixed & header sticky modes
 		.aside-enabled.aside-fixed.header-fixed & {
-			left: get($aside-config, width, desktop);
+			left: 80px;
 		}
 
 		// Header menu

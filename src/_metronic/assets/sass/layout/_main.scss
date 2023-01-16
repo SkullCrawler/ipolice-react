@@ -25,7 +25,7 @@ body {
 	.wrapper {
 		// Aside default enabled and aside fixed modes
 		.aside-enabled.aside-fixed & {
-			padding-left: get($aside-config, width, desktop);
+			padding-left: 80px;
 		}
 
 		// Fixed header mode
@@ -35,7 +35,7 @@ body {
 
 		// Fixed header & fixed toolbar modes
 		.header-fixed.toolbar-fixed & {
-			padding-top: get($header-config, fixed, height, desktop) + get($toolbar-config, height, desktop);
+			padding-top: 90px;
 		}
 	}
 }
